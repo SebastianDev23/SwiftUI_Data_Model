@@ -11,7 +11,7 @@ import SwiftUI
 struct Data_ModelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(library: libraryData[0], song: .init(name: "", image: "", time: ""))
         }
     }
 }
